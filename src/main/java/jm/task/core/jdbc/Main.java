@@ -38,11 +38,5 @@ public class Main {
 //        Удаление таблицы
         userService.dropUsersTable();
 
-        try {
-            Util.connection.close();
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }
-
     }
 }

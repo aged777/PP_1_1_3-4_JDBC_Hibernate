@@ -12,18 +12,14 @@ public class Util {
 
     public static Connection connection;
 
-    static {
-        try {
-            Class.forName("com.mysql.cj.jdbc.Driver");
-        } catch (ClassNotFoundException e) {
-            System.out.println("JDBC драйвер для СУБД не найден!");
-        }
-
+    public static Connection getConnection() {
         try {
             connection = DriverManager.getConnection(urlDB, userName, password);
         } catch (SQLException e) {
             System.out.println("Ошибка SQL при создании подключения!");;
         }
+
+        return connection;
     }
 
 
