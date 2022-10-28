@@ -16,12 +16,10 @@ public class Util {
         try {
             connection = DriverManager.getConnection(urlDB, userName, password);
         } catch (SQLException e) {
-            System.out.println("Ошибка SQL при создании подключения!");;
+            e.printStackTrace();
         }
 
         return connection;
     }
-
-
     // реализуйте настройку соеденения с БД
 }
