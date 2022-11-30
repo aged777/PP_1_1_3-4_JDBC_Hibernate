@@ -74,7 +74,7 @@ public class UserDaoJDBCImpl implements UserDao {
         } catch (SQLException e) {
             e.printStackTrace();
             try{
-                Util.connection.rollback();
+                connection.rollback();
             } catch (SQLException n) {
                 n.printStackTrace();
             }
@@ -115,7 +115,7 @@ public class UserDaoJDBCImpl implements UserDao {
         } catch (SQLException e) {
             e.printStackTrace();
             try{
-                Util.connection.rollback();
+                connection.rollback();
             } catch (SQLException n) {
                 n.printStackTrace();
             }
