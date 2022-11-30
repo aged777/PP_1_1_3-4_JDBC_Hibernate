@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="402e0777-ad60-4ef4-a6c3-bd4c1c223cb1" name="Changes" comment="task JAva pre-project 1.1.3 30.11.2022">
-      <change beforePath="$PROJECT_DIR$/src/main/java/jm/task/core/jdbc/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jm/task/core/jdbc/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jm/task/core/jdbc/dao/UserDaoHibernateImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jm/task/core/jdbc/dao/UserDaoHibernateImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jm/task/core/jdbc/dao/UserDaoJDBCImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jm/task/core/jdbc/dao/UserDaoJDBCImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jm/task/core/jdbc/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jm/task/core/jdbc/service/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jm/task/core/jdbc/util/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jm/task/core/jdbc/util/Util.java" afterDir="false" />
-    </list>
+    <list default="true" id="402e0777-ad60-4ef4-a6c3-bd4c1c223cb1" name="Changes" comment="task JAva pre-project 1.1.3 30.11.2022" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,10 +21,6 @@
   </component>
   <component name="GithubDefaultAccount">
     <option name="defaultAccountId" value="d2263f80-7d48-4092-b00a-7aca6f2b0785" />
-  </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="vcs://src/main/java/jm/task/core/jdbc/dao/UserDaoJDBCImpl.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="vcs://src/main/java/jm/task/core/jdbc/service/UserServiceImpl.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -187,6 +177,7 @@
       <workItem from="1669798570889" duration="2012000" />
       <workItem from="1669801104574" duration="48000" />
       <workItem from="1669801167977" duration="654000" />
+      <workItem from="1669801841010" duration="332000" />
     </task>
     <task id="LOCAL-00001" summary="task JAva pre-project 1.1.3">
       <created>1653638324641</created>
@@ -258,7 +249,21 @@
       <option name="project" value="LOCAL" />
       <updated>1669801002142</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="task JAva pre-project 1.1.3 30.11.2022">
+      <created>1669801938010</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1669801938010</updated>
+    </task>
+    <task id="LOCAL-00012" summary="task JAva pre-project 1.1.3 30.11.2022">
+      <created>1669801958731</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1669801958731</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -285,7 +290,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="1.1.5_hibernate" />
+                        <option value="master" />
                       </list>
                     </value>
                   </entry>
