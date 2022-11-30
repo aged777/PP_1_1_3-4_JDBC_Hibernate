@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="402e0777-ad60-4ef4-a6c3-bd4c1c223cb1" name="Changes" comment="task JAva pre-project 1.1.3 30.11.2022">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jm/task/core/jdbc/dao/UserDaoJDBCImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jm/task/core/jdbc/dao/UserDaoJDBCImpl.java" afterDir="false" />
-    </list>
+    <list default="true" id="402e0777-ad60-4ef4-a6c3-bd4c1c223cb1" name="Changes" comment="task JAva pre-project 1.1.3 30.11.2022" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -114,11 +111,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.UserServiceTest.saveUser" />
-        <item itemvalue="JUnit.UserServiceTest.removeUserById" />
-        <item itemvalue="JUnit.UserServiceTest.getAllUsers" />
-        <item itemvalue="JUnit.UserServiceTest.createUsersTable" />
         <item itemvalue="JUnit.UserServiceTest.cleanUsersTable" />
+        <item itemvalue="JUnit.UserServiceTest.getAllUsers" />
+        <item itemvalue="JUnit.UserServiceTest.removeUserById" />
+        <item itemvalue="JUnit.UserServiceTest.saveUser" />
+        <item itemvalue="JUnit.UserServiceTest.createUsersTable" />
       </list>
     </recent_temporary>
   </component>
@@ -183,7 +180,7 @@
       <workItem from="1669801841010" duration="910000" />
       <workItem from="1669803322607" duration="43000" />
       <workItem from="1669803950492" duration="1064000" />
-      <workItem from="1669805052128" duration="143000" />
+      <workItem from="1669805052128" duration="469000" />
     </task>
     <task id="LOCAL-00001" summary="task JAva pre-project 1.1.3">
       <created>1653638324641</created>
@@ -276,7 +273,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669802180772</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="task JAva pre-project 1.1.3 30.11.2022">
+      <created>1669805209189</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1669805209189</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
