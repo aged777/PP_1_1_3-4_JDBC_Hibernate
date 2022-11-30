@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="402e0777-ad60-4ef4-a6c3-bd4c1c223cb1" name="Changes" comment="task JAva pre-project 1.1.3 30.11.2022">
+      <change beforePath="$PROJECT_DIR$/src/main/java/jm/task/core/jdbc/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jm/task/core/jdbc/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jm/task/core/jdbc/dao/UserDaoHibernateImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jm/task/core/jdbc/dao/UserDaoHibernateImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jm/task/core/jdbc/dao/UserDaoJDBCImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jm/task/core/jdbc/dao/UserDaoJDBCImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jm/task/core/jdbc/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jm/task/core/jdbc/service/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jm/task/core/jdbc/util/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jm/task/core/jdbc/util/Util.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="1.1.5_hibernate" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="MIXED" />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="d2263f80-7d48-4092-b00a-7aca6f2b0785" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="vcs://src/main/java/jm/task/core/jdbc/dao/UserDaoJDBCImpl.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="vcs://src/main/java/jm/task/core/jdbc/service/UserServiceImpl.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="29hEjhFyWSfFo8Oo85LELCsPVsM" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/user/IdeaProjects/PP_1_1_3-4_JDBC_Hibernate&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
+  }
+}</component>
+  <component name="RunManager" selected="JUnit.UserServiceTest.cleanUsersTable">
+    <configuration name="UserServiceTest.cleanUsersTable" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TaskJDBC" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="UserServiceTest" />
+      <option name="METHOD_NAME" value="cleanUsersTable" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceTest.createUsersTable" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TaskJDBC" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="UserServiceTest" />
+      <option name="METHOD_NAME" value="createUsersTable" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceTest.getAllUsers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TaskJDBC" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="UserServiceTest" />
+      <option name="METHOD_NAME" value="getAllUsers" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceTest.removeUserById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TaskJDBC" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="UserServiceTest" />
+      <option name="METHOD_NAME" value="removeUserById" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceTest.saveUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TaskJDBC" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="UserServiceTest" />
+      <option name="METHOD_NAME" value="saveUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.UserServiceTest.saveUser" />
+        <item itemvalue="JUnit.UserServiceTest.removeUserById" />
+        <item itemvalue="JUnit.UserServiceTest.getAllUsers" />
+        <item itemvalue="JUnit.UserServiceTest.createUsersTable" />
+        <item itemvalue="JUnit.UserServiceTest.cleanUsersTable" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="402e0777-ad60-4ef4-a6c3-bd4c1c223cb1" name="Changes" comment="" />
+      <created>1653557055323</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1653557055323</updated>
+      <workItem from="1653557056685" duration="15000" />
+      <workItem from="1653562074448" duration="5045000" />
+      <workItem from="1653587306796" duration="6852000" />
+      <workItem from="1653624226641" duration="12679000" />
+      <workItem from="1653667435447" duration="609000" />
+      <workItem from="1653817755301" duration="5366000" />
+      <workItem from="1653847716611" duration="596000" />
+      <workItem from="1653894615134" duration="595000" />
+      <workItem from="1653968893578" duration="681000" />
+      <workItem from="1654054443951" duration="4550000" />
+      <workItem from="1654090286813" duration="542000" />
+      <workItem from="1654090860458" duration="4008000" />
+      <workItem from="1654173633438" duration="1496000" />
+      <workItem from="1654405286394" duration="1371000" />
+      <workItem from="1654452119561" duration="1260000" />
+      <workItem from="1654500434922" duration="1272000" />
+      <workItem from="1655265887637" duration="2802000" />
+      <workItem from="1656407360275" duration="1345000" />
+      <workItem from="1656494266547" duration="1194000" />
+      <workItem from="1656765993626" duration="1391000" />
+      <workItem from="1656842823176" duration="596000" />
+      <workItem from="1656909302134" duration="678000" />
+      <workItem from="1666949562970" duration="13142000" />
+      <workItem from="1667062168827" duration="2246000" />
+      <workItem from="1667232338713" duration="1414000" />
+      <workItem from="1667241884724" duration="152000" />
+      <workItem from="1667370733994" duration="869000" />
+      <workItem from="1667399027863" duration="2840000" />
+      <workItem from="1667550353152" duration="2456000" />
+      <workItem from="1667657294537" duration="597000" />
+      <workItem from="1667816049284" duration="1197000" />
+      <workItem from="1667962574829" duration="5530000" />
+      <workItem from="1668084180571" duration="3127000" />
+      <workItem from="1668092588666" duration="1843000" />
+      <workItem from="1668313461747" duration="3665000" />
+      <workItem from="1668408954677" duration="3979000" />
+      <workItem from="1668579359718" duration="814000" />
+      <workItem from="1668687773713" duration="614000" />
+      <workItem from="1668746811069" duration="2241000" />
+      <workItem from="1668786233580" duration="3511000" />
+      <workItem from="1668869481435" duration="2164000" />
+      <workItem from="1669100782754" duration="3068000" />
+      <workItem from="1669121336434" duration="1201000" />
+      <workItem from="1669292220805" duration="4214000" />
+      <workItem from="1669554562522" duration="1134000" />
+      <workItem from="1669630834012" duration="1190000" />
+      <workItem from="1669735344485" duration="618000" />
+      <workItem from="1669798570889" duration="2012000" />
+      <workItem from="1669801104574" duration="48000" />
+      <workItem from="1669801167977" duration="654000" />
+    </task>
+    <task id="LOCAL-00001" summary="task JAva pre-project 1.1.3">
+      <created>1653638324641</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1653638324641</updated>
+    </task>
+    <task id="LOCAL-00002" summary="task JAva pre-project 1.1.3">
+      <created>1653642054346</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1653642054346</updated>
+    </task>
+    <task id="LOCAL-00003" summary="task JAva pre-project 1.1.3">
+      <created>1654094497681</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1654094497681</updated>
+    </task>
+    <task id="LOCAL-00004" summary="task JAva pre-project 1.1.3">
+      <created>1666975217926</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1666975217926</updated>
+    </task>
+    <task id="LOCAL-00005" summary="task JAva pre-project 1.1.3 13.11.2022">
+      <created>1669121694993</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1669121694993</updated>
+    </task>
+    <task id="LOCAL-00006" summary="task JAva pre-project 1.1.3 13.11.2022">
+      <created>1669121722816</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1669121722816</updated>
+    </task>
+    <task id="LOCAL-00007" summary="task JAva pre-project 1.1.3 13.11.2022">
+      <created>1669292931473</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1669292931473</updated>
+    </task>
+    <task id="LOCAL-00008" summary="task JAva pre-project 1.1.3 30.11.2022">
+      <created>1669800580410</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1669800580410</updated>
+    </task>
+    <task id="LOCAL-00009" summary="task JAva pre-project 1.1.3 30.11.2022">
+      <created>1669800641107</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1669800641107</updated>
+    </task>
+    <task id="LOCAL-00010" summary="task JAva pre-project 1.1.3 30.11.2022">
+      <created>1669801002142</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1669801002142</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="dependencySupport" implementationName="java:com.google.protobuf:protobuf-java" />
+    <option featureType="dependencySupport" implementationName="java:javax.persistence:javax.persistence-api" />
+    <option featureType="dependencySupport" implementationName="java:org.hibernate:hibernate-core" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="1.1.5_hibernate" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="HEAD" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="task JAva pre-project 1.1.3" />
+    <MESSAGE value="task JAva pre-project 1.1.3 13.11.2022" />
+    <MESSAGE value="task JAva pre-project 1.1.3 30.11.2022" />
+    <option name="LAST_COMMIT_MESSAGE" value="task JAva pre-project 1.1.3 30.11.2022" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/target/classes/jm/task/core/jdbc/Main.class</url>
+          <line>20</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
