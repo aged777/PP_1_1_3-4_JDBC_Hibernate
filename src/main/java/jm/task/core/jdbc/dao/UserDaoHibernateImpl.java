@@ -2,7 +2,10 @@ package jm.task.core.jdbc.dao;
 
 import jm.task.core.jdbc.model.User;
 import jm.task.core.jdbc.util.Util;
+import org.hibernate.Session;
 import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
+import org.hibernate.query.NativeQuery;
 
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
@@ -16,21 +19,21 @@ public class UserDaoHibernateImpl implements UserDao {
     }
     @Override
     public void createUsersTable() {
-//        try (PreparedStatement preparedStatement = connection.prepareStatement("CREATE TABLE IF NOT EXISTS Users (id BIGINT PRIMARY KEY AUTO_INCREMENT, name VARCHAR(30), lastName VARCHAR(45), age TINYINT);")) {
-//            connection.setAutoCommit(false);
-//            preparedStatement.executeUpdate();
-//            connection.commit();
-//        } catch (SQLException e) {
-//            e.printStackTrace();
-//            try{
-//                connection.rollback();
-//            } catch (SQLException n) {
-//                n.printStackTrace();
-//            }
-//        }
+        Transaction transaction = null;
+        try(Session session = sessionFactory.openSession()) {
+            transaction = session.beginTransaction(); // начинаем транзакцию
 
+            String SQL = "CREATE TABLE IF NOT EXISTS Users (id BIGINT PRIMARY KEY AUTO_INCREMENT, name VARCHAR(30), lastName VARCHAR(45), age TINYINT);";  // создаём переменную с текстом запроса
 
+            NativeQuery<?> nativeQuery = session.createNativeQuery(SQL); // создаём объект с параметром текста запроса SQL
 
+            nativeQuery.executeUpdate();
+
+        } catch (Exception e) {
+            if (transaction != null) {
+                transaction.rollback();
+            }
+        }
     }
 
     @Override

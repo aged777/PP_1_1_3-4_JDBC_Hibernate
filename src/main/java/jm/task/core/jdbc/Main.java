@@ -17,27 +17,27 @@ public class Main {
 
 //        Cоздание таблицы User(ов)
         userService.createUsersTable();
-
-//        Добавление 4 User(ов)
-        userService.saveUser("Alex", "Semenov", (byte) 23);
-        userService.saveUser("Alex2", "Semenov2", (byte) 24);
-        userService.saveUser("Alex3", "Semenov3", (byte) 21);
-        userService.saveUser("Alex4", "Semenov4", (byte) 28);
-
-//        Получение всех User из базы
-        List<User> users = userService.getAllUsers();
-
-//        Вывод в консоль
-        for (User user:users
-             ) {
-            System.out.println(user);
-        }
-
-//        Очистка таблицы User(ов)
-        userService.cleanUsersTable();
-
-//        Удаление таблицы
-        userService.dropUsersTable();
+//
+////        Добавление 4 User(ов)
+//        userService.saveUser("Alex", "Semenov", (byte) 23);
+//        userService.saveUser("Alex2", "Semenov2", (byte) 24);
+//        userService.saveUser("Alex3", "Semenov3", (byte) 21);
+//        userService.saveUser("Alex4", "Semenov4", (byte) 28);
+//
+////        Получение всех User из базы
+//        List<User> users = userService.getAllUsers();
+//
+////        Вывод в консоль
+//        for (User user:users
+//             ) {
+//            System.out.println(user);
+//        }
+//
+////        Очистка таблицы User(ов)
+//        userService.cleanUsersTable();
+//
+////        Удаление таблицы
+//        userService.dropUsersTable();
 
     }
 }

@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="402e0777-ad60-4ef4-a6c3-bd4c1c223cb1" name="Changes" comment="task JAva pre-project 1.1.3 30.11.2022" />
+    <list default="true" id="402e0777-ad60-4ef4-a6c3-bd4c1c223cb1" name="Changes" comment="task JAva pre-project 1.1.3 30.11.2022">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jm/task/core/jdbc/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jm/task/core/jdbc/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jm/task/core/jdbc/dao/UserDaoHibernateImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jm/task/core/jdbc/dao/UserDaoHibernateImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jm/task/core/jdbc/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jm/task/core/jdbc/service/UserServiceImpl.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,7 +47,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/user/IdeaProjects/PP_1_1_3-4_JDBC_Hibernate&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/user/IdeaProjects/hibernate_git_094205122022&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -58,7 +63,20 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected="JUnit.UserServiceTest.cleanUsersTable">
+  <component name="RunManager" selected="JUnit.UserServiceTest.createUsersTable">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jm.task.core.jdbc.Main" />
+      <module name="TaskJDBC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jm.task.core.jdbc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="UserServiceTest.cleanUsersTable" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TaskJDBC" />
       <option name="PACKAGE_NAME" value="" />
@@ -99,23 +117,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserServiceTest.saveUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TaskJDBC" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="UserServiceTest" />
-      <option name="METHOD_NAME" value="saveUser" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UserServiceTest.createUsersTable" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.UserServiceTest.cleanUsersTable" />
         <item itemvalue="JUnit.UserServiceTest.getAllUsers" />
         <item itemvalue="JUnit.UserServiceTest.removeUserById" />
-        <item itemvalue="JUnit.UserServiceTest.saveUser" />
-        <item itemvalue="JUnit.UserServiceTest.createUsersTable" />
       </list>
     </recent_temporary>
   </component>
@@ -181,6 +189,23 @@
       <workItem from="1669803322607" duration="43000" />
       <workItem from="1669803950492" duration="1064000" />
       <workItem from="1669805052128" duration="469000" />
+      <workItem from="1669805720089" duration="789000" />
+      <workItem from="1669819532594" duration="2117000" />
+      <workItem from="1670082779880" duration="1205000" />
+      <workItem from="1670139550682" duration="643000" />
+      <workItem from="1670179077711" duration="70000" />
+      <workItem from="1670219341095" duration="702000" />
+      <workItem from="1670222402794" duration="349000" />
+      <workItem from="1672596253504" duration="259000" />
+      <workItem from="1672596634860" duration="693000" />
+      <workItem from="1672633416436" duration="1310000" />
+      <workItem from="1672652577790" duration="635000" />
+      <workItem from="1672728254245" duration="1422000" />
+      <workItem from="1672839548006" duration="6876000" />
+      <workItem from="1672889020967" duration="777000" />
+      <workItem from="1672893466743" duration="1203000" />
+      <workItem from="1672904278045" duration="595000" />
+      <workItem from="1673164100775" duration="4018000" />
     </task>
     <task id="LOCAL-00001" summary="task JAva pre-project 1.1.3">
       <created>1653638324641</created>
@@ -280,7 +305,21 @@
       <option name="project" value="LOCAL" />
       <updated>1669805209189</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="task JAva pre-project 1.1.3 30.11.2022">
+      <created>1669805886543</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1669805886543</updated>
+    </task>
+    <task id="LOCAL-00016" summary="task JAva pre-project 1.1.3 30.11.2022">
+      <created>1669805893534</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1669805893534</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -332,7 +371,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="master" />
+                        <option value="1.1.5_hibernate" />
                       </list>
                     </value>
                   </entry>
