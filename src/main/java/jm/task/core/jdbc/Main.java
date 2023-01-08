@@ -37,7 +37,7 @@ public class Main {
 //        userService.cleanUsersTable();
 //
 ////        Удаление таблицы
-//        userService.dropUsersTable();
+        userService.dropUsersTable();
 
     }
 }

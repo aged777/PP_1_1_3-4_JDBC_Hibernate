@@ -13,13 +13,15 @@ import java.util.List;
 
 public class UserDaoHibernateImpl implements UserDao {
     private SessionFactory sessionFactory;
+    private Transaction transaction = null;
 
     public UserDaoHibernateImpl () {
         this.sessionFactory = Util.getSessionFactory();
     }
+
     @Override
     public void createUsersTable() {
-        Transaction transaction = null;
+
         try(Session session = sessionFactory.openSession()) {
             transaction = session.beginTransaction(); // начинаем транзакцию
 
@@ -38,6 +40,20 @@ public class UserDaoHibernateImpl implements UserDao {
 
     @Override
     public void dropUsersTable() {
+        try(Session session = sessionFactory.openSession()) {
+            transaction = session.beginTransaction(); // начинаем транзакцию
+
+            String SQL = "DROP TABLE IF EXISTS Users;";  // создаём переменную с текстом запроса
+
+            NativeQuery<?> nativeQuery = session.createNativeQuery(SQL); // создаём объект с параметром текста запроса SQL
+
+            nativeQuery.executeUpdate();
+
+        } catch (Exception e) {
+            if (transaction != null) {
+                transaction.rollback();
+            }
+        }
 
     }
 
