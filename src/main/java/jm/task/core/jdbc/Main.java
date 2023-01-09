@@ -19,7 +19,7 @@ public class Main {
         userService.createUsersTable();
 //
 ////        Добавление 4 User(ов)
-//        userService.saveUser("Alex", "Semenov", (byte) 23);
+        userService.saveUser("Alex", "Semenov", (byte) 23);
 //        userService.saveUser("Alex2", "Semenov2", (byte) 24);
 //        userService.saveUser("Alex3", "Semenov3", (byte) 21);
 //        userService.saveUser("Alex4", "Semenov4", (byte) 28);
@@ -37,7 +37,7 @@ public class Main {
 //        userService.cleanUsersTable();
 //
 ////        Удаление таблицы
-        userService.dropUsersTable();
+//        userService.dropUsersTable();
 
     }
 }

@@ -13,7 +13,6 @@ import java.util.List;
 
 public class UserDaoHibernateImpl implements UserDao {
     private SessionFactory sessionFactory;
-    private Transaction transaction = null;
 
     public UserDaoHibernateImpl () {
         this.sessionFactory = Util.getSessionFactory();
@@ -21,7 +20,7 @@ public class UserDaoHibernateImpl implements UserDao {
 
     @Override
     public void createUsersTable() {
-
+        Transaction transaction = null;
         try(Session session = sessionFactory.openSession()) {
             transaction = session.beginTransaction(); // начинаем транзакцию
 
@@ -35,11 +34,15 @@ public class UserDaoHibernateImpl implements UserDao {
             if (transaction != null) {
                 transaction.rollback();
             }
+        } finally {
+            sessionFactory.close();
         }
+
     }
 
     @Override
     public void dropUsersTable() {
+        Transaction transaction = null;
         try(Session session = sessionFactory.openSession()) {
             transaction = session.beginTransaction(); // начинаем транзакцию
 
@@ -53,12 +56,32 @@ public class UserDaoHibernateImpl implements UserDao {
             if (transaction != null) {
                 transaction.rollback();
             }
+        } finally {
+            sessionFactory.close();
         }
 
     }
 
     @Override
     public void saveUser(String name, String lastName, byte age) {
+        Transaction transaction = null;
+        User user = new User(name, lastName, age);
+        try(Session session = sessionFactory.openSession()) {
+
+            transaction = session.beginTransaction(); // начинаем транзакцию
+
+            session.save(user);
+
+            transaction.commit();
+
+        } catch (Exception e) {
+            if (transaction != null) {
+                transaction.rollback();
+            }
+        } finally {
+            sessionFactory.close();
+        }
+
 
     }
 
